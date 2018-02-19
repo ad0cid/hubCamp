@@ -111,6 +111,19 @@ form{
 
 
 /*Front*/
-
+.oferta{
+	padding: 20%;
+}
+.azul{
+	background-color: #003046;
+	color: white;
+}
+.rosa{
+	background-color: #ff0065;
+	color: white;
+}
+.sede{
+	color: #ff0065;
+}
 
 

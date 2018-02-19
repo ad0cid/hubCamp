@@ -1,0 +1,116 @@
+/*Generales*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	color: white;
+}
+h2{
+	color: #003046;
+}
+h4{
+	color: #ff0065;
+	text-align: center;
+}
+footer{
+	background-color: #003046;
+	color: white;
+}
+
+/*Menu*/
+.logo{
+	width: 50%;
+	margin-top: 3%;
+}
+
+
+
+/*Inicio y formulario*/
+.inicio{
+	background: url(img/fondo.jpg);
+	background-size: 100% 100%;
+}
+form{
+	border: solid white 1px;
+	background-color: #003046;
+	margin-top: 5%;
+	width: 100%;
+	color: white;
+}
+.nav-wrapper{
+	background-color: #003046;
+}
+.button{
+	display: block;
+	margin: auto;
+	margin-bottom: 3%;
+	background-color: #ff0065;
+}
+
+/*Sobre nosotros*/
+.contacto{
+	background-color: #ff0065;
+	color: white;
+}
+.icon{
+	width: 20%;
+	display: block;
+	margin:auto;
+}
+
+/*Cursos*/
+.imagen{
+	width: 100%;
+	height: 300px;
+}
+.opacidad{
+	background-color: rgba(0,48,70,0.5);
+  	width: 100%;
+  	height: 300px;
+}
+.curso{
+	color: #003046;
+	font-weight:bold;
+	border-bottom: solid 1px #ff0065;
+	text-align: center;
+}
+.card-action a{
+	color: #ff0065 !important;
+}
+
+
+/*Profesores*/
+.profesor{
+	width: 100%;
+	height: 250px;
+}
+
+/*Galeria*/
+
+
+.testimonio{
+	display: block;
+	margin: auto;
+	width: 25%;
+}
+/*Blog*/
+.evento{
+	width: 100%;
+}
+
+/*Footer*/
+.page-footer{
+	background-color: #003046;
+	color: white;
+}
+.redes a{
+	margin: 3%;
+}
+
+/*Marketing*/
+
+
+/*Front*/
+
+
+

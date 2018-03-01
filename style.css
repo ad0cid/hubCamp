@@ -7,6 +7,7 @@ h1{
 }
 h2{
 	color: #003046;
+	margin:5% 0% 3% 0%;
 }
 h4{
 	color: #ff0065;
@@ -16,14 +17,19 @@ footer{
 	background-color: #003046;
 	color: white;
 }
+hr{
+	width: 10%;
+	border:5px solid #ff0065;
+	border-radius: 4px;
+	margin-left: 5px;
+	margin-bottom: 5%;			
+}
 
 /*Menu*/
 .logo{
 	width: 50%;
 	margin-top: 3%;
 }
-
-
 
 /*Inicio y formulario*/
 .inicio{
@@ -78,15 +84,23 @@ form{
 	color: #ff0065 !important;
 }
 
-
 /*Profesores*/
 .profesor{
 	width: 100%;
 	height: 250px;
+	padding: 8%;
+	background-color: #003046;
 }
 
 /*Galeria*/
+.galeria{
+	width: 100%;
+}
 
+.margen{
+	margin-top: 5%;
+	margin-bottom: 5%; 
+}
 
 .testimonio{
 	display: block;
@@ -126,4 +140,17 @@ form{
 	color: #ff0065;
 }
 
+/*talento*/
+/*alumno*/
+.bagde{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+.inicial{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ff0065;
+}
 
+/*proyecto*/

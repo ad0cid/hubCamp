@@ -63,7 +63,9 @@ form{
 	display: block;
 	margin:auto;
 }
-
+.testimonios{
+	margin: 5% 0;
+}
 /*Cursos*/
 .imagen{
 	width: 100%;
@@ -85,12 +87,6 @@ form{
 }
 
 /*Profesores*/
-.profesor{
-	width: 100%;
-	height: 250px;
-	padding: 8%;
-	background-color: #003046;
-}
 
 /*Galeria*/
 .galeria{
@@ -131,10 +127,14 @@ form{
 .azul{
 	background-color: #003046;
 	color: white;
+	height: 300px;
+	width: 100%;
 }
 .rosa{
 	background-color: #ff0065;
 	color: white;
+	height: 300px;
+	width: 100%;
 }
 .sede{
 	color: #ff0065;

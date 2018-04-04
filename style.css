@@ -118,7 +118,12 @@ form{
 }
 
 /*Marketing*/
-
+.txtb{
+	color: white;
+	margin-top: 10%;
+	font-size: 1.2em;
+	text-align: justify;
+}
 
 /*Front*/
 .oferta{

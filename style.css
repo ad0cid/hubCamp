@@ -118,7 +118,11 @@ form{
 }
 
 /*Marketing*/
-
+.txti{
+	color: white;
+	text-align: justify;
+	font-size: large;
+}
 
 /*Front*/
 .oferta{

@@ -139,7 +139,46 @@ form{
 .sede{
 	color: #ff0065;
 }
-
+/*sedes*/
+#thePool{
+	background-color: rgba(31,37,38,.75);
+	height: 150px;
+	padding: 2px;
+	display: block;
+	margin: auto;
+}
+#aldea{
+	display: block;
+	margin: auto;
+	height: 100px;
+}
+#wrk{
+	display: block;
+	margin: auto;
+}
+#impact{
+	display: block;
+	margin: auto;
+	height: 50px;
+}
+#work{
+	display: block;
+	margin: auto;
+	height: 100px;	
+}
+#grados{
+	display: block;
+	margin: auto;
+	background-color: rgba(62, 204, 181, 1);
+	height: 100px;
+	padding: 2%;
+}
+#puebla{
+	display: block;
+	margin: auto;
+	background-color: #3a3a3a;
+	padding: 1%;
+}
 /*talento*/
 /*alumno*/
 .bagde{

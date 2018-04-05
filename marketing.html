@@ -14,25 +14,25 @@
 	<body>
 		<header>
 			<div class="navbar-fixed">
-        		<nav>
-        			<div class="nav-wrapper">
-          				<a href="index.html" class="brand-logo">
-            				<img src="img/Logo_Hub-Camp.png" alt="logo Hub-Camp" class="logo">
-          				</a>
-          				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          				<ul class="right hide-on-med-and-down">
-				            <li><a href="#programa">Nuestros programa</a></li>
-				            <li><a href="#sedes">Sedes</a></li>
-				            <li><a href="#">Bolsa de trabajo</a></li>
-				        </ul>   
-				        <ul class="side-nav" id="mobile-demo">
-				           	 <li><a href="#programa">Nuestros programa</a></li>
-				            <li><a href="#sedes">Sedes</a></li>
-				            <li><a href="#">Bolsa de trabajo</a></li>
-				        </ul>
-        			</div>
-        		</nav>
-      		</div>  
+				<nav>
+					<div class="nav-wrapper">
+						<a href="index.html" class="brand-logo">
+							<img src="img/Logo_Hub-Camp.png" alt="logo Hub-Camp" class="logo">
+						</a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#programa">Nuestros programa</a></li>
+							<li><a href="#sedes">Sedes</a></li>
+							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
+						</ul>   
+						<ul class="side-nav" id="mobile-demo">
+							<li><a href="#programa">Nuestros programa</a></li>
+							<li><a href="#sedes">Sedes</a></li>
+							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>  
 		</header>
 		<div class="inicio">
 			<section class="container"> <!--intro a marketing-->
@@ -85,7 +85,7 @@
 				</div>
 			</section> 
 		</div>
-		<section class="container"> <!--temario-->
+		<section class="container" id="programa"> <!--temario-->
 			<div class="row">
 				<h2>Nuestro programa</h2>
 			</div>
@@ -172,7 +172,7 @@
 				</div>
 			</div>
 		</section>		
-		<section class="container"> <!--sedes-->
+		<section class="container" id="sedes"> <!--sedes-->
       <div class="row">  
         <div class=" s12"> 
           <h2>Sedes:</h2>
@@ -181,30 +181,79 @@
           <ul class="collapsible" data-collapsible="accordion">
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Polanco</div>
-              <div class="collapsible-body"><p>The Pool</p></div>
+              <div class="collapsible-body">
+								<div class="row">
+									<div class="col s12">
+										<img src="img/thePool.png" alt="logo coworking The Pool" class="coworking" id="thePool">
+										<p class="center-align">The Pool</p>
+										<p class="center-align">Goldsmith 40, Polanco, Polanco III Secc, 11550 Ciudad de México, CDMX</p>
+									</div>
+								</div>
+							</div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Coyoacán</div>
-              <div class="collapsible-body"><p>Aldea división</p></div>
+              <div class="collapsible-body">
+								<div class="row">
+									<div class="col s12">
+										<img src="img/aldea.png" alt="logo coworking Aldea Division" id="aldea">
+										<p class="center-align">Aldea división</p>
+										<p class="center-align">Av. División del Norte, No. 2800, Planta Alta, Parque de San Andres, 04040 CDMX</p>
+									</div>
+								</div>
+							</div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Roma-Condesa</div>
               <div class="collapsible-body">
-                <p>WRK</p>
-                <p>Impact Hub</p>
+								<div class="row">
+									<div class="col s6">
+										<img src="img/wrk.png" alt="logo coworking WRK" id="wrk">
+										<p class="center-align">WRK</p>
+										<p class="center-align">Insurgentes Sur 318, Roma Nte., 06700 Ciudad de México, CDMX</p>
+									</div>
+									<div class="col s6">
+										<img src="img/impact.jpg" alt="logo coworking Impact Hub" id="impact">
+										<p class="center-align">Impact Hub</p>
+										<p class="center-align">Av. Álvaro Obregón 168, Roma Nte., 06700 Ciudad de México, CDMX</p>
+									</div>
+								</div>
               </div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Cuauhtémoc</div>
-              <div class="collapsible-body"><p>Work Inc</p></div>
+              <div class="collapsible-body">
+								<div class="row">
+									<div class="col s12">
+											<img src="img/work.png" alt="logo coworking Work Inc" id="work">
+											<p class="center-align">Work Inc</p>
+											<p class="center-align">Calle Río Lerma 94, Piso 3, Cuauhtémoc, 06500 Cuauhtémoc, CDMX</p>
+									</div>
+								</div>
+							</div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Narvarte</div>
-              <div class="collapsible-body"><p>358</p></div>
+              <div class="collapsible-body">
+								<div class="row">
+									<div class="col s12">
+											<img src="img/grados.png" alt="logo coworkign 358 Grados" id="grados">
+											<p class="center-align">358 Grados</p>
+											<p class="center-align">La Quemada 358, Narvarte Poniente, 03020 Ciudad de México, CDMX</p>
+									</div>
+								</div>
+							</div>
             </li>
             <li>
               <div class="collapsible-header"><i class="material-icons sede">place</i>Puebla</div>
-              <div class="collapsible-body"><p>C2 Coworking</p></div>
+              <div class="collapsible-body">
+								<div class="row">
+									<div class="col s12">
+										<img src="img/puebla.png" alt="logo coworking c2 coworking" id="puebla">
+										<p class="center-align">C2 Coworking</p></div>
+										<p class="center-align"> Teziutlan Sur 22, La Paz, 72160 Puebla, Pue.</p>
+									</div>
+								</div>
             </li>
           </ul>
         </div>

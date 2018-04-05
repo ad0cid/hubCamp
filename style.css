@@ -185,6 +185,8 @@ form{
 	padding: 1%;
 }
 /*talento*/
+.clientes{
+	width: 100%;}
 /*alumno*/
 .bagde{
 	display: block;
@@ -196,5 +198,15 @@ form{
 	font-weight: bold;
 	color: #ff0065;
 }
-
+.certificada{
+	width: 100%;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	padding: 10%;
+}
+.linkedin{
+	display: block;
+	margin: auto;
+}
 /*proyecto*/

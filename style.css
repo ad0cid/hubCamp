@@ -58,6 +58,9 @@ label{
 	margin-bottom: 3%;
 	background-color: #ff0065;
 }
+.button:hover{
+	background-color: #ff0065;
+}
 
 /*Sobre nosotros*/
 .contacto{
@@ -111,8 +114,14 @@ label{
 }
 /*Blog*/
 .evento{
-	width: 100%;
+	width: 90%;
 	height: 130px;
+	display: block;
+	margin: auto;
+}
+.evento:hover{
+	border: solid 1px #ff0065;	
+	padding: 2%;
 }
 
 /*Footer*/

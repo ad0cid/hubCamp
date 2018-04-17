@@ -3,15 +3,19 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 h1{
-	color: white;
+	color:  #003046;
 }
 h2{
 	color: #003046;
-	margin:5% 0% 3% 0%;
+	margin-top:10%;
+}
+h3{
+	color: #ff0065;
 }
 h4{
 	color: #ff0065;
 	text-align: center;
+	margin: 10% 0% 5% 0%;
 }
 footer{
 	background-color: #003046;
@@ -36,12 +40,14 @@ hr{
 	background: url(img/fondo.jpg);
 	background-size: 100% 100%;
 }
-form{
-	border: solid white 1px;
-	background-color: #003046;
-	margin-top: 5%;
+video{
 	width: 100%;
-	color: white;
+	margin-top: 5%;
+	height: 400px;
+}
+label{
+	color:#ff0065 !important;
+	font-size: large !important;
 }
 .nav-wrapper{
 	background-color: #003046;
@@ -106,6 +112,7 @@ form{
 /*Blog*/
 .evento{
 	width: 100%;
+	height: 130px;
 }
 
 /*Footer*/
@@ -185,7 +192,25 @@ form{
 }
 /*talento*/
 .clientes{
-	width: 100%;}
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+#enjoy{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+#jana{
+	width: 10	0%;
+	display: block;
+	margin: auto;
+}
+#iecatss{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
 /*alumno*/
 .bagde{
 	display: block;

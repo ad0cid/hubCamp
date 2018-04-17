@@ -21,19 +21,33 @@
           				</a>
           				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           				<ul class="right hide-on-med-and-down">
-				            <li><a href="#programa">Alumnos</a></li>
-				            <li><a href="#sedes">Proyectos</a></li>
+				            <li><a href="#alumnos">Alumnos</a></li>
+							<li><a href="#proyectos">Proyectos</a></li>
+							<li><a href="index.html#cursos"></a>Cursos</li>
+							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
 				        </ul>   
 				        <ul class="side-nav" id="mobile-demo">
-				           	<li><a href="#programa">Alumnos</a></li>
-				            <li><a href="#sedes">Proyectos</a></li>
+							<li><a href="#alumnos">Alumnos</a></li>
+							<li><a href="#proyectos">Proyectos</a></li>
+							<li><a href="index.html#cursos"></a>Cursos</li>
+							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
 				        </ul>
         			</div>
         		</nav>
       		</div>  
 		</header>
-		<section class="container"> <!--alumnos-->
-			<p>Conoce a nuestro talento y lo que saben hacer</p>
+		<section class="container">
+			<div class="row">
+				<div class="col m5 s12">
+					<h1 class="center-align">Hub-Camp</h1>
+					<h3 class="center-align">Conoce a nuestro talento y lo que saben hacer.</h3>
+				</div>		
+				<div class="col m7 s12">
+					<video src="videos/Testimonios - Luis.mp4" controls></video>
+				</div>
+			</div>
+		</section>
+		<section class="container" id="alumnos"> <!--alumnos-->
 			<h2>Alumnos Certificados</h2>
 			<hr>
 			<div class="row">
@@ -59,24 +73,73 @@
 				</div>
 			</div>
 		</section>
-		<section class="container"> <!--proyectos-->
+		<section class="container" id="proyectos"> <!--proyectos-->
 			<h2>Proyectos</h2>
 			<hr>
 			<div class="row">
-				<div class="col m4 s12">
-					<img src="img/cliente-Enjoy.png" alt="logo cliente Enjoy" class="clientes">
+				<div class="col m4 s6">
+					<img src="img/cliente-PAMELA.png" alt="" class="clientes">
 				</div>
-				<div class="col m4 s12">
-					<img src="img/cliente-iecatss.png" alt="" class="clientes">
-				</div>
-				<div class="col m4 s12">
-					<img src="img/cliente-jana.png" alt="" class="clientes">
+				<div class="col m8 s6">
+					<p>Pamela Casanova es una sommelier mexicana, de 27 años, miembro activo de la Asociación de Sommeliers Mexicanos. <br> Su objetivo es ser introducir al mundo del vino de forma amigable y práctica.</p>
 				</div>
 			</div>
 			<div class="row">
-				.
+				<div class="col m4 s6">
+					<img src="img/cliente-tumbiko.png" alt=""class="clientes">
+				</div>
+				<div class="col m8 s6">
+					<p>Tumbiko es una startup mexicana de joyería artesal. <br> Tiene por objetivo preservar el gran valor de las piezas hechas a mano por artesanos de Taxco. Brinda oprtunidades a nuevos talentos mexicanos creando concursos de diseño únicos abierto a todo público.</p>
+				</div>
 			</div>
+			<div class="row">
+				<div class="col m4 s6">
+					<img src="img/cliente-Enjoy.png" alt="" class="clientes">
+				</div>
+				<div class="col m8 s6">
+					<p>ENJOY MAGAZINE es una revista digital que muestra la última tendencia en diferentes temas, tales como, música, tecnología, moda, belleza, etc. <br> Le habla a mujeres jóvenes quienes les importa estar siempre informadas y disfrutar de un estilo de vida divertido, fresco y sobretodo relajado.</p>
+				</div>
+			</div>	
 		</section>
+		<section class="container"><!--formulario-->
+			<div class="row">
+				<div class="col s12">
+					<h2>Escríbenos</h2>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col m8 s12 offset-m2">
+					<form>
+						<div class="row">
+							<div class="input-field col s12">
+									<input id="first_name" type="text" class="validate">
+									<label for="first_name">Nombre:</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s12">
+									<input id="last_name" type="text" class="validate">
+									<label for="last_name">Apellido:</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s12">
+									<input id="last_name" type="text" class="validate">
+									<label for="last_name">Correo electrónico:</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s12">
+									<input placeholder="Marketing Digital/ Front-End" id="last_name" type="text" class="validate">
+									<label for="last_name">Curso que te interesa:</label>
+							</div>
+						</div>	
+						<button class="btn waves-effect waves-light button" type="submit" name="action">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</section>	
 		<footer class="page-footer">
         	<div class="container">
             	<div class="row">

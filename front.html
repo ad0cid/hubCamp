@@ -25,15 +25,56 @@
 							<li><a href="#sedes">Sedes</a></li>
 							<li><a href="talento.html" target="_blank">Talento Hub-Camp</a></li>
 							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
+							<li><a href="#modal1" class="waves-effect waves-light modal-trigger">Próximas convocatorias</a></li>
 						</ul>   
 						<ul class="side-nav" id="mobile-demo">
 							<li><a href="#programa">Programa</a></li>
 							<li><a href="#sedes">Sedes</a></li>
 							<li><a href="talento.html" target="_blank">Talento Hub-Camp</a></li>
 							<li><a href="http://jobs.hub-camp.mx/enviar-cv/" target="_blank">Bolsa de trabajo</a></li>
+							<li><a href="#modal1" class="waves-effect waves-light modal-trigger">Próximas convocatorias</a></li>
 						</ul>
 					</div>
 				</nav>
+			</div> 
+			<div id="modal1" class="modal">
+				<div class="modal-content center-align">
+					<p class="apertura">Próximas Convocatorias</p>
+					<i class="medium material-icons cal">event</i>
+					<div class="row">
+						<div class="col s3">
+							<p class="center-align">19 Mayo 2018</p>
+						</div>
+						<div class="col s4">
+							<p class="center-align">Marketing Digital</p>
+						</div>
+						<div class="col s5">
+							<p class="center-align">Aldea División - Coyoacán</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s3">
+							<p class="center-align">19 Mayo 2018</p>
+						</div>
+						<div class="col s4">
+							<p class="center-align">Marketing Digital</p>
+						</div>
+						<div class="col s5">
+							<p class="center-align">The Pool - Polanco</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s3">
+							<p class="center-align">26 Mayo 2018</p>
+						</div>
+						<div class="col s4">
+							<p class="center-align">Marketing Digital</p>
+						</div>
+						<div class="col s5">
+							<p class="center-align">Universidad de la Comuniación</p>
+						</div>
+					</div>
+				</div>
 			</div>  
 		</header>
 		<section class="container"> <!--inicio-->
@@ -187,6 +228,58 @@
 					</div>
 				</div>
 			</div>	
+			<div class="row">
+				<div class="col s12 m6">
+					<button class="programa">Descarga el programa completo</button>
+				</div>
+				<div class="col s12 m6">
+					<a href="#modal2" class="waves-light modal-trigger">
+						<button class="beca">Aplica para una beca</button>
+					</a>
+				</div>
+			</div>
+			<div id="modal2" class="modal">
+				<div class="modal-content center-align">
+					<p class="center-align">Aplica para una beca</p>
+					<form action="">
+						<div class="row">
+							<div class="input-field col s8 offset-s2">
+								<input id="name" type="text" class="validate">
+								<label for="first_name">Nombre</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s8 offset-s2">
+								<input id="last_name" type="text" class="validate">
+								<label for="last_name">Apellido</label>
+							</div>
+						</div>
+						<div class="row">  
+							<div class="input-field col s8 offset-s2">
+								<input id="mail" type="text" class="validate">
+								<label for="mail">E-mail</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s8 offset-s2">
+								<input id="certificacion" type="text" class="validate">
+								<label for="certificación">Qué certificación te interesa</label>
+							</div>
+						</div>
+						<div class="row">	
+							<div class="input-field col s8 offset-s2">
+								<input id="sede" type="text" class="validate">
+								<label for="sede">Sede</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s8 offset-s2">	
+								<button class="btn-beca">Envíar</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div> 
 		</section>
 		<section class="container"> <!--porque estudiar en hub-camp-->
 			<div class="row">
@@ -342,15 +435,25 @@
 					<div class="col l6 s12">
 						<h5 class="white-text">Hub-Camp</h5>
 						<div>
-							<span><i class="fa fa-map-marker" aria-hidden="true"></i>  Av. Gustavo Baz Prada #98 <br> 53370 Naucalpan de Juarez Méx.</span>
+							<span> 
+								<a href="https://goo.gl/maps/qA92eq4XDRA2">
+									<i class="fa fa-map-marker" aria-hidden="true"></i>  Av. Gustavo Baz Prada #98 <br> 53370 Naucalpan de Juarez Méx.
+								</a>
+							</span>
 						</div>
 						<br>
 						<div>
-							<span><i class="fa fa-phone" aria-hidden="true"></i> (55) 1328 2962  </span>
+							<span>
+								<a href="tel:+521328 2962"><i class="fa fa-phone" aria-hidden="true"></i> (55) 1328 2962  </a>
+							</span>
 						</div>
 						<br>
 						<div>
-							<span><i class="fa fa-envelope-o" aria-hidden="true"></i>  hola@hub-camp.mx</span>
+							<span> 
+								<a href="mailto:hola@hub-camp.mx">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>  hola@hub-camp.mx
+								</a>
+							</span>	
 						</div>
 					</div>
 					<div class="col l4 offset-l2 s12">
@@ -375,6 +478,10 @@
 		<script>
 			$( document ).ready(function(){
 				$(".button-collapse").sideNav();
+			});
+			$(document).ready(function(){
+				// the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+				$('.modal').modal();
 			});
     	</script>
 	</body>

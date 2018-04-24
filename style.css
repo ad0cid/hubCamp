@@ -275,3 +275,12 @@ input{
 	margin: auto;
 }
 /*proyecto*/
+
+
+@media all and (max-width:360px){
+	.logo{
+		width:80%;
+		display: block;
+		margin: auto;
+	}
+}
